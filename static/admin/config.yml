@@ -5,6 +5,11 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 22a2ced241be29c2cc01
+
 collections:
   - name: "blog"
     label: "Blog"
