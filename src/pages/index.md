@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: /img/home-jumbotron.jpg
+image: 'https://ucarecdn.com/02f521d4-6dc5-4ee7-8f8b-5b1e1d58085a/'
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
@@ -65,3 +65,4 @@ main:
     alt: A green cup of a coffee on a wooden table
     image: /img/products-grid2.jpg
 ---
+
