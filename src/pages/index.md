@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Great coffee with a conscience
-image: 'https://ucarecdn.com/02f521d4-6dc5-4ee7-8f8b-5b1e1d58085a/'
+image: 'https://ucarecdn.com/16550f8d-9094-4e2d-b4b7-7f72a1d65217/'
 heading: Great coffee with a conscience
 subheading: Support sustainable farming while enjoying a cup
 mainpitch:
