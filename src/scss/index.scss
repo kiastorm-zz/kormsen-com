@@ -1,0 +1,91 @@
+@import 'node_modules/include-media/dist/_include-media.scss';
+@import './variables';
+@import './animations/animations';
+@import './background-colors/background-colors';
+@import './border/border';
+@import './colors/colors';
+@import './fill-colors/fill-colors';
+@import './flexbox/flexbox';
+@import './grid/grid';
+@import './hide/hide';
+@import './layout/layout';
+@import './margin/margin';
+@import './padding/padding';
+@import './position/position';
+@import './position/position';
+@import './type/type';
+@import './heights/heights';
+@import './widths/widths';
+
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation
+}
+
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: inherit
+  }
+
+  // disable click highlights in mobile devices
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+/*
+ * Sizing with REMS
+ * @Note: REMS are better for resposive layout.
+ *        https://gregrickaby.com/2013/05/using-the-golden-ratio-and-rems/
+ *        https://pearsonified.com/typography/
+ *
+ */
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 62.5%
+}
+
+h1, h2, h3, h4, h5, h6, p, caption, button {
+  margin: 0
+}
+
+[role="button"]:focus {
+  outline: none;
+}
+
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+  font-size: 1.4rem;
+  color: $tarmac
+}
+
+@font-face {
+  font-family: Karbon-SemiBold;
+  src: url("/dist/assets/fonts/Karbon-Semibold.woff2") format('woff2'),
+  url("/dist/assets/fonts/Karbon-Semibold.woff2") format('woff');
+  font-weight: 600;
+  font-style: normal
+}
+
+@font-face {
+  font-family: Karbon-Regular;
+  src: url("/dist/assets/fonts/Karbon-Regular.woff2") format('woff2'),
+  url("/dist/assets/fonts/Karbon-Regular.woff2") format('woff');
+  font-weight: 400;
+  font-style: normal
+}
+
+@include media($phone-devices...) {
+  body {
+    overflow: visible;
+  }
+}

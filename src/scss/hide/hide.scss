@@ -1,0 +1,14 @@
+.display-none { display: none }
+.display-none-important { display: none !important }
+
+@include media($tabletlandscape-devices...) {
+  .tl-display-none  { display: none }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-display-none  { display: none }
+}
+
+@include media($phone-devices...) {
+  .p-display-none  { display: none }
+}

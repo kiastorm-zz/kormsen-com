@@ -1,0 +1,162 @@
+/*
+  Grid gutter widths
+*/
+$gutter: $space-6;
+$small-gutter: $space-3;
+
+.main-content {
+  padding-top: 3.6rem;
+  padding-bottom: 3.6rem;
+
+  & > div {
+    max-width: 120rem;
+    padding-left: 4.8rem;
+    padding-right: 4.8rem;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+
+  &.no-gutter {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-gap: $gutter;
+  grid-template-columns: repeat(12, 1fr);
+  width: 100%;
+
+  &.no-gutter {
+    grid-gap: 0;
+  }
+
+  &.small-gutter {
+    grid-gap: $small-gutter;
+  }
+
+  &.no-row-gutter {
+    row-gap: 0;
+  }
+
+  &.no-col-gutter {
+    column-gap: 0;
+  }
+
+  .full-width {
+    grid-column: span 12;
+  }
+}
+
+
+
+@for $i from 1 through 13 {
+  .has-#{$i}-cols {
+    grid-template-columns: repeat($i, 1fr);
+  }
+
+  .has-#{$i}-rows {
+    grid-template-rows: repeat($i, 1fr);
+  }
+
+  .col-start-#{$i},
+  .start-#{$i} {
+    grid-column-start: $i;
+  }
+
+  .col-end-#{$i},
+  .end-#{$i} {
+    grid-column-end: $i;
+  }
+
+  .row-start-#{$i} {
+    grid-row-start: $i;
+  }
+
+  .row-end-#{$i} {
+    grid-row-end: $i;
+  }
+
+  .col-span-#{$i},
+  .span-#{$i} {
+    grid-column-start: span $i;
+  }
+
+  .row-span-#{$i} {
+    grid-row-start: span $i;
+  }
+
+  .order-#{$i} {
+    order: $i;
+  }
+
+  @for $ii from 2 through 13 {
+    .col-#{$i}-#{$ii} {
+      grid-column: $i #{'/'} $ii;
+    }
+    .row-#{$i}-#{$ii} {
+      grid-row: $i #{'/'} $ii;
+    }
+  }
+}
+
+.row {
+  box-sizing: border-box;
+  display: flex;
+  flex: 0 1 auto;
+  flex-direction: row;
+  flex-wrap: wrap
+}
+
+.self-start {
+  justify-self: start;
+}
+
+.self-center {
+  justify-self: center;
+}
+
+.self-end {
+  justify-self: end;
+}
+
+@include media($tabletlandscape-devices...) {
+  .body {
+    grid-template-columns: repeat(4, 1fr);
+
+    &.tl-no-gutter {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+@include media($tabletportrait-devices...) {
+  .body {
+    grid-template-columns: repeat(8, 1fr);
+
+    &.tp-no-gutter {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+@include media($phone-devices...) {
+  .body {
+    grid-template-columns: repeat(8, 1fr);
+
+    &.p-no-gutter {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+

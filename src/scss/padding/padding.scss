@@ -1,0 +1,466 @@
+.p0  { padding: 0 }
+.pt0 { padding-top: 0 }
+.pr0 { padding-right: 0 }
+.pb0 { padding-bottom: 0 }
+.pl0 { padding-left: 0 }
+
+.px0 {
+  padding-left: 0;
+  padding-right: 0
+}
+
+.py0 {
+  padding-top: 0;
+  padding-bottom: 0
+}
+
+.p1  { padding: $space-1 }
+.pt1 { padding-top: $space-1 }
+.pr1 { padding-right: $space-1 }
+.pb1 { padding-bottom: $space-1 }
+.pl1 { padding-left: $space-1 }
+
+.py1 {
+  padding-top: $space-1;
+  padding-bottom: $space-1
+}
+
+.px1 {
+  padding-left: $space-1;
+  padding-right:  $space-1
+}
+
+.p2  { padding: $space-2 }
+.pt2 { padding-top: $space-2 }
+.pr2 { padding-right: $space-2 }
+.pb2 { padding-bottom: $space-2 }
+.pl2 { padding-left: $space-2 }
+
+.py2 {
+  padding-top: $space-2;
+  padding-bottom: $space-2
+}
+
+.px2 {
+  padding-left: $space-2;
+  padding-right:  $space-2
+}
+
+.p3  { padding: $space-3 }
+.pt3 { padding-top: $space-3 }
+.pr3 { padding-right: $space-3 }
+.pb3 { padding-bottom: $space-3 }
+.pl3 { padding-left: $space-3 }
+
+.py3 {
+  padding-top: $space-3;
+  padding-bottom: $space-3
+}
+
+.px3 {
+  padding-left: $space-3;
+  padding-right: $space-3
+}
+
+.p4  { padding: $space-4 }
+.pt4 { padding-top: $space-4 }
+.pr4 { padding-right: $space-4 }
+.pb4 { padding-bottom: $space-4 }
+.pl4 { padding-left: $space-4 }
+
+.py4 {
+  padding-top: $space-4;
+  padding-bottom: $space-4
+}
+
+.px4 {
+  padding-left: $space-4;
+  padding-right: $space-4
+}
+
+.p5  { padding: $space-5 }
+.pt5 { padding-top: $space-5 }
+.pr5 { padding-right: $space-5 }
+.pb5 { padding-bottom: $space-5 }
+.pl5 { padding-left: $space-5 }
+
+.py5 {
+  padding-top: $space-5;
+  padding-bottom: $space-5
+}
+
+.px5 {
+  padding-left: $space-5;
+  padding-right:  $space-5
+}
+
+.p6,
+.p-gutter  { padding: $space-6 }
+.pt6,
+.pt-gutter { padding-top: $space-6 }
+.pr6,
+.pr-gutter { padding-right: $space-6 }
+.pb6,
+.pb-gutter { padding-bottom: $space-6 }
+.pl6,
+.pl-gutter { padding-left: $space-6 }
+
+.py6,
+.py-gutter {
+  padding-top: $space-6;
+  padding-bottom: $space-6
+}
+
+.px6,
+.px-gutter {
+  padding-left: $space-5;
+  padding-right:  $space-5
+}
+
+.p7  { padding: $space-7 }
+.pt7 { padding-top: $space-7 }
+.pr7 { padding-right: $space-7 }
+.pb7 { padding-bottom: $space-7 }
+.pl7 { padding-left: $space-7 }
+
+.py7 {
+  padding-top: $space-7;
+  padding-bottom: $space-7;
+}
+
+.px7 {
+  padding-left: $space-7;
+  padding-right:  $space-7;
+}
+
+.p8  { padding: $space-8 }
+.pt8 { padding-top: $space-8 }
+.pr8 { padding-right: $space-8 }
+.pb8 { padding-bottom: $space-8 }
+.pl8 { padding-left: $space-8 }
+
+.py8 {
+  padding-top: $space-8;
+  padding-bottom: $space-8
+}
+
+.px8 {
+  padding-left: $space-8;
+  padding-right:  $space-8
+}
+
+.p10  { padding: $space-10 }
+.pt10 { padding-top: $space-10 }
+.pr10 { padding-right: $space-10 }
+.pb10 { padding-bottom: $space-10 }
+.pl10 { padding-left: $space-10 }
+
+.p11  { padding: $space-11 }
+.pt11 { padding-top: $space-11 }
+.pr11 { padding-right: $space-11 }
+.pb11 { padding-bottom: $space-11 }
+.pl11 { padding-left: $space-11 }
+
+.p12  { padding: $space-12 }
+.pt12 { padding-top: $space-12 }
+.pr12 { padding-right: $space-12 }
+.pb12 { padding-bottom: $space-12 }
+.pl12 { padding-left: $space-12 }
+
+.py12 {
+  padding-top: $space-8;
+  padding-bottom: $space-8
+}
+
+.px12 {
+  padding-left: $space-8;
+  padding-right:  $space-8
+}
+
+.p16  { padding: $space-16 }
+.pt16 { padding-top: $space-16 }
+.pr16 { padding-right: $space-16 }
+.pb16 { padding-bottom: $space-16 }
+.pl16 { padding-left: $space-16 }
+
+.py16 {
+  padding-top: $space-16;
+  padding-bottom: $space-16
+}
+
+.px16 {
+  padding-left: $space-16;
+  padding-right:  $space-16
+}
+
+.p20  { padding: $space-20 }
+.pt20 { padding-top: $space-20 }
+.pr20 { padding-right: $space-20 }
+.pb20 { padding-bottom: $space-20 }
+.pl20 { padding-left: $space-20 }
+
+.py20 {
+  padding-top: $space-20;
+  padding-bottom: $space-20
+}
+
+.px20 {
+  padding-left: $space-20;
+  padding-right:  $space-20
+}
+
+.p24  { padding: $space-24 }
+.pt24 { padding-top: $space-24 }
+.pr24 { padding-right: $space-24 }
+.pb24 { padding-bottom: $space-24 }
+.pl24 { padding-left: $space-24 }
+
+.py24 {
+  padding-top: $space-24;
+  padding-bottom: $space-24
+}
+
+.px24 {
+  padding-left: $space-24;
+  padding-right:  $space-24
+}
+
+@include media($tabletlandscape-devices...) {
+  .tl-p0  { padding: 0 }
+  .tl-pt0 { padding-top: 0 }
+  .tl-pr0 { padding-right: 0 }
+  .tl-pb0 { padding-bottom: 0 }
+  .tl-pl0 { padding-left: 0 }
+
+  .tl-p1  { padding: $space-1 }
+  .tl-pt1 { padding-top: $space-1 }
+  .tl-pr1 { padding-right: $space-1 }
+  .tl-pb1 { padding-bottom: $space-1 }
+  .tl-pl1 { padding-left: $space-1 }
+
+  .tl-p2  { padding: $space-2 }
+  .tl-pt2 { padding-top: $space-2 }
+  .tl-pr2 { padding-right: $space-2 }
+  .tl-pb2 { padding-bottom: $space-2 }
+  .tl-pl2 { padding-left: $space-2 }
+
+  .tl-p3  { padding: $space-3 }
+  .tl-pt3 { padding-top: $space-3 }
+  .tl-pr3 { padding-right: $space-3 }
+  .tl-pb3 { padding-bottom: $space-3 }
+  .tl-pl3 { padding-left: $space-3 }
+
+  .tl-p4  { padding: $space-4 }
+  .tl-pt4 { padding-top: $space-4 }
+  .tl-pr4 { padding-right: $space-4 }
+  .tl-pb4 { padding-bottom: $space-4 }
+  .tl-pl4 { padding-left: $space-4 }
+
+  .tl-p5  { padding: $space-5 }
+  .tl-pt5 { padding-top: $space-5 }
+  .tl-pr5 { padding-right: $space-5 }
+  .tl-pb5 { padding-bottom: $space-5 }
+  .tl-pl5 { padding-left: $space-5 }
+
+  .tl-p6  { padding: $space-6 }
+  .tl-pt6 { padding-top: $space-6 }
+  .tl-pr6 { padding-right: $space-6 }
+  .tl-pb6 { padding-bottom: $space-6 }
+  .tl-pl6 { padding-left: $space-6 }
+
+  .tl-p8  { padding: $space-8 }
+  .tl-pt8 { padding-top: $space-8 }
+  .tl-pr8 { padding-right: $space-8 }
+  .tl-pb8 { padding-bottom: $space-8 }
+  .tl-pl8 { padding-left: $space-8 }
+
+  .tl-p10  { padding: $space-10 }
+  .tl-pt10 { padding-top: $space-10 }
+  .tl-pr10 { padding-right: $space-10 }
+  .tl-pb10 { padding-bottom: $space-10 }
+  .tl-pl10 { padding-left: $space-10 }
+
+  .tl-p12  { padding: $space-12 }
+  .tl-pt12 { padding-top: $space-12 }
+  .tl-pr12 { padding-right: $space-12 }
+  .tl-pb12 { padding-bottom: $space-12 }
+  .tl-pl12 { padding-left: $space-12 }
+
+  .tl-p16  { padding: $space-16 }
+  .tl-pt16 { padding-top: $space-16 }
+  .tl-pr16 { padding-right: $space-16 }
+  .tl-pb16 { padding-bottom: $space-16 }
+  .tl-pl16 { padding-left: $space-16 }
+
+  .tl-p20  { padding: $space-20 }
+  .tl-pt20 { padding-top: $space-20 }
+  .tl-pr20 { padding-right: $space-20 }
+  .tl-pb20 { padding-bottom: $space-20 }
+  .tl-pl20 { padding-left: $space-20 }
+
+  .tl-p24  { padding: $space-24 }
+  .tl-pt24 { padding-top: $space-24 }
+  .tl-pr24 { padding-right: $space-24 }
+  .tl-pb24 { padding-bottom: $space-24 }
+  .tl-pl24 { padding-left: $space-24 }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-p0  { padding: 0 }
+  .tp-pt0 { padding-top: 0 }
+  .tp-pr0 { padding-right: 0 }
+  .tp-pb0 { padding-bottom: 0 }
+  .tp-pl0 { padding-left: 0 }
+
+  .tp-p1  { padding: $space-1 }
+  .tp-pt1 { padding-top: $space-1 }
+  .tp-pr1 { padding-right: $space-1 }
+  .tp-pb1 { padding-bottom: $space-1 }
+  .tp-pl1 { padding-left: $space-1 }
+
+  .tp-p2  { padding: $space-2 }
+  .tp-pt2 { padding-top: $space-2 }
+  .tp-pr2 { padding-right: $space-2 }
+  .tp-pb2 { padding-bottom: $space-2 }
+  .tp-pl2 { padding-left: $space-2 }
+
+  .tp-p3  { padding: $space-3 }
+  .tp-pt3 { padding-top: $space-3 }
+  .tp-pr3 { padding-right: $space-3 }
+  .tp-pb3 { padding-bottom: $space-3 }
+  .tp-pl3 { padding-left: $space-3 }
+
+  .tp-p4  { padding: $space-4 }
+  .tp-pt4 { padding-top: $space-4 }
+  .tp-pr4 { padding-right: $space-4 }
+  .tp-pb4 { padding-bottom: $space-4 }
+  .tp-pl4 { padding-left: $space-4 }
+
+  .tp-p5  { padding: $space-5 }
+  .tp-pt5 { padding-top: $space-5 }
+  .tp-pr5 { padding-right: $space-5 }
+  .tp-pb5 { padding-bottom: $space-5 }
+  .tp-pl5 { padding-left: $space-5 }
+
+  .tp-p6  { padding: $space-6 }
+  .tp-pt6 { padding-top: $space-6 }
+  .tp-pr6 { padding-right: $space-6 }
+  .tp-pb6 { padding-bottom: $space-6 }
+  .tp-pl6 { padding-left: $space-6 }
+
+  .tp-p8  { padding: $space-8 }
+  .tp-pt8 { padding-top: $space-8 }
+  .tp-pr8 { padding-right: $space-8 }
+  .tp-pb8 { padding-bottom: $space-8 }
+  .tp-pl8 { padding-left: $space-8 }
+
+  .tp-p10  { padding: $space-10 }
+  .tp-pt10 { padding-top: $space-10 }
+  .tp-pr10 { padding-right: $space-10 }
+  .tp-pb10 { padding-bottom: $space-10 }
+  .tp-pl10 { padding-left: $space-10 }
+
+  .tp-p12  { padding: $space-12 }
+  .tp-pt12 { padding-top: $space-12 }
+  .tp-pr12 { padding-right: $space-12 }
+  .tp-pb12 { padding-bottom: $space-12 }
+  .tp-pl12 { padding-left: $space-12 }
+
+  .tp-p16  { padding: $space-16 }
+  .tp-pt16 { padding-top: $space-16 }
+  .tp-pr16 { padding-right: $space-16 }
+  .tp-pb16 { padding-bottom: $space-16 }
+  .tp-pl16 { padding-left: $space-16 }
+
+  .tp-p20  { padding: $space-20 }
+  .tp-pt20 { padding-top: $space-20 }
+  .tp-pr20 { padding-right: $space-20 }
+  .tp-pb20 { padding-bottom: $space-20 }
+  .tp-pl20 { padding-left: $space-20 }
+
+  .tp-p24  { padding: $space-24 }
+  .tp-pt24 { padding-top: $space-24 }
+  .tp-pr24 { padding-right: $space-24 }
+  .tp-pb24 { padding-bottom: $space-24 }
+  .tp-pl24 { padding-left: $space-24 }
+}
+
+@include media($phone-devices...) {
+  .p-p0  { padding: 0 }
+  .p-pt0 { padding-top: 0 }
+  .p-pr0 { padding-right: 0 }
+  .p-pb0 { padding-bottom: 0 }
+  .p-pl0 { padding-left: 0 }
+
+  .p-p1  { padding: $space-1 }
+  .p-pt1 { padding-top: $space-1 }
+  .p-pr1 { padding-right: $space-1 }
+  .p-pb1 { padding-bottom: $space-1 }
+  .p-pl1 { padding-left: $space-1 }
+
+  .p-p2  { padding: $space-2 }
+  .p-pt2 { padding-top: $space-2 }
+  .p-pr2 { padding-right: $space-2 }
+  .p-pb2 { padding-bottom: $space-2 }
+  .p-pl2 { padding-left: $space-2 }
+
+  .p-p3  { padding: $space-3 }
+  .p-pt3 { padding-top: $space-3 }
+  .p-pr3 { padding-right: $space-3 }
+  .p-pb3 { padding-bottom: $space-3 }
+  .p-pl3 { padding-left: $space-3 }
+
+  .p-p4  { padding: $space-4 }
+  .p-pt4 { padding-top: $space-4 }
+  .p-pr4 { padding-right: $space-4 }
+  .p-pb4 { padding-bottom: $space-4 }
+  .p-pl4 { padding-left: $space-4 }
+
+  .p-p5  { padding: $space-5 }
+  .p-pt5 { padding-top: $space-5 }
+  .p-pr5 { padding-right: $space-5 }
+  .p-pb5 { padding-bottom: $space-5 }
+  .p-pl5 { padding-left: $space-5 }
+
+  .p-p6  { padding: $space-6 }
+  .p-pt6 { padding-top: $space-6 }
+  .p-pr6 { padding-right: $space-6 }
+  .p-pb6 { padding-bottom: $space-6 }
+  .p-pl6 { padding-left: $space-6 }
+
+  .p-p8  { padding: $space-8 }
+  .p-pt8 { padding-top: $space-8 }
+  .p-pr8 { padding-right: $space-8 }
+  .p-pb8 { padding-bottom: $space-8 }
+  .p-pl8 { padding-left: $space-8 }
+
+  .p-p10  { padding: $space-10 }
+  .p-pt10 { padding-top: $space-10 }
+  .p-pr10 { padding-right: $space-10 }
+  .p-pb10 { padding-bottom: $space-10 }
+  .p-pl10 { padding-left: $space-10 }
+
+  .p-p12  { padding: $space-12 }
+  .p-pt12 { padding-top: $space-12 }
+  .p-pr12 { padding-right: $space-12 }
+  .p-pb12 { padding-bottom: $space-12 }
+  .p-pl12 { padding-left: $space-12 }
+
+  .p-p16  { padding: $space-16 }
+  .p-pt16 { padding-top: $space-16 }
+  .p-pr16 { padding-right: $space-16 }
+  .p-pb16 { padding-bottom: $space-16 }
+  .p-pl16 { padding-left: $space-16 }
+
+  .p-p20  { padding: $space-20 }
+  .p-pt20 { padding-top: $space-20 }
+  .p-pr20 { padding-right: $space-20 }
+  .p-pb20 { padding-bottom: $space-20 }
+  .p-pl20 { padding-left: $space-20 }
+
+  .p-p24  { padding: $space-24 }
+  .p-pt24 { padding-top: $space-24 }
+  .p-pr24 { padding-right: $space-24 }
+  .p-pb24 { padding-bottom: $space-24 }
+  .p-pl24 { padding-left: $space-24 }
+}

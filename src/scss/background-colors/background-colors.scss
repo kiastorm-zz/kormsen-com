@@ -1,0 +1,30 @@
+.bg-transparent { background-color: transparent }
+.bg-white-washout { background-color: $white-washout }
+.bg-light-washout { background-color: $light-washout }
+.bg-washout { background-color: $washout }
+.bg-extra-light-storm { background-color: $extra-light-storm }
+.bg-light-storm { background-color: $light-storm }
+.bg-storm { background-color: $storm }
+.bg-light-tarmac { background-color: $light-tarmac }
+.bg-tarmac { background-color: $tarmac }
+.bg-light-turquoise { background-color: $light-turquoise }
+.bg-turquoise { background-color: $turquoise }
+.bg-red { background-color: $red }
+
+.bg-blur {
+  opacity: 0.6;
+  -webkit-filter: blur(6px);
+  -moz-filter: blur(6px);
+  -o-filter: blur(6px);
+  -ms-filter: blur(6px);
+  filter: blur(6px);
+}
+
+.bg-blur-exit {
+  opacity: 1;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -o-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: blur(0px);
+}

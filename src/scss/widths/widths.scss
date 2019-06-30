@@ -1,0 +1,91 @@
+.w-10 { width: 10% }
+.w-15 { width: 15% }
+.w-20 { width: 20% }
+.w-25 { width: 25% }
+.w-30 { width: 30% }
+.w-33 { width: 30.33333% }
+.w-35 { width: 35% }
+.w-40 { width: 40% }
+.w-45 { width: 45% }
+.w-50 { width: 50% }
+.w-55 { width: 55% }
+.w-60 { width: 60% }
+.w-66 { width: 66.66666% }
+.w-65 { width: 65% }
+.w-70 { width: 70% }
+.w-75 { width: 75% }
+.w-80 { width: 80% }
+.w-85 { width: 85% }
+.w-90 { width: 90% }
+.w-95 { width: 95% }
+.w-100 { width: 100% }
+.w-auto { width: auto }
+
+@include media($tabletlandscape-devices...) {
+  .tl-w-auto { width: auto }
+  .tl-w-10 { width: 10% }
+  .tl-w-15 { width: 15% }
+  .tl-w-20 { width: 20% }
+  .tl-w-25 { width: 25% }
+  .tl-w-30 { width: 30% }
+  .tl-w-35 { width: 35% }
+  .tl-w-40 { width: 40% }
+  .tl-w-45 { width: 45% }
+  .tl-w-50 { width: 50% }
+  .tl-w-55 { width: 55% }
+  .tl-w-60 { width: 60% }
+  .tl-w-65 { width: 65% }
+  .tl-w-70 { width: 70% }
+  .tl-w-75 { width: 75% }
+  .tl-w-80 { width: 80% }
+  .tl-w-85 { width: 85% }
+  .tl-w-90 { width: 90% }
+  .tl-w-95 { width: 95% }
+  .tl-w-100 { width: 100% }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-w-auto { width: auto }
+  .tp-w-10 { width: 10% }
+  .tp-w-15 { width: 15% }
+  .tp-w-20 { width: 20% }
+  .tp-w-25 { width: 25% }
+  .tp-w-30 { width: 30% }
+  .tp-w-35 { width: 35% }
+  .tp-w-40 { width: 40% }
+  .tp-w-45 { width: 45% }
+  .tp-w-50 { width: 50% }
+  .tp-w-55 { width: 55% }
+  .tp-w-60 { width: 60% }
+  .tp-w-65 { width: 65% }
+  .tp-w-70 { width: 70% }
+  .tp-w-75 { width: 75% }
+  .tp-w-80 { width: 80% }
+  .tp-w-85 { width: 85% }
+  .tp-w-90 { width: 90% }
+  .tp-w-95 { width: 95% }
+  .tp-w-100 { width: 100% }
+}
+
+@include media($phone-devices...) {
+  .p-w-auto { width: auto !important; }
+  .p-w-10 { width: 10% }
+  .p-w-15 { width: 15% }
+  .p-w-20 { width: 20% }
+  .p-w-25 { width: 25% }
+  .p-w-30 { width: 30% }
+  .p-w-35 { width: 35% }
+  .p-w-40 { width: 40% }
+  .p-w-45 { width: 45% }
+  .p-w-50 { width: 50% }
+  .p-w-55 { width: 55% }
+  .p-w-60 { width: 60% }
+  .p-w-65 { width: 65% }
+  .p-w-70 { width: 70% }
+  .p-w-75 { width: 75% }
+  .p-w-80 { width: 80% }
+  .p-w-85 { width: 85% }
+  .p-w-90 { width: 90% }
+  .p-w-95 { width: 95% }
+  .p-w-100 { width: 100% }
+}

@@ -1,0 +1,100 @@
+.flex { display: flex }
+
+.flex-column  { flex-direction: column }
+.flex-row     { flex-direction: row }
+.flex-wrap    { flex-wrap: wrap }
+
+.items-start    { align-items: flex-start }
+.items-end      { align-items: flex-end }
+.items-center   { align-items: center }
+.items-baseline { align-items: baseline }
+.items-stretch  { align-items: stretch }
+
+.self-start    { align-self: flex-start }
+.self-end      { align-self: flex-end }
+.self-center   { align-self: center }
+.self-baseline { align-self: baseline }
+.self-stretch  { align-self: stretch }
+
+.justify-start   { justify-content: flex-start }
+.justify-end     { justify-content: flex-end }
+.justify-center  { justify-content: center }
+.justify-between { justify-content: space-between }
+.justify-around  { justify-content: space-around }
+
+.content-start   { align-content: flex-start }
+.content-end     { align-content: flex-end }
+.content-center  { align-content: center }
+.content-between { align-content: space-between }
+.content-around  { align-content: space-around }
+.content-stretch { align-content: stretch }
+
+.no-flex-shrink { flex-shrink: 0 }
+.flex-grow     { flex-grow: 1 }
+
+
+/* 1. Fix for Chrome 44 bug. https://code.google.com/p/chromium/issues/detail?id=506893 */
+.flex-auto {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 0
+}
+
+.flex-none { flex: none }
+
+.order-0 { order: 0 }
+.order-1 { order: 1 }
+.order-2 { order: 2 }
+.order-3 { order: 3 }
+.order-last { order: 99999 }
+
+@include media($tabletlandscape-devices...) {
+  .tl-items-start    { align-items: flex-start }
+  .tl-justify-start   { justify-content: flex-start }
+  .tl-flex { display: flex }
+  .tl-order-last { order: 99999 }
+  .tl-flex-column  { flex-direction: column }
+
+  .tl-flex-auto {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0
+  }
+
+  .tl-justify-center   { justify-content: center }
+  .tl-justify-start   { justify-content: flex-start }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-items-start    { align-items: flex-start }
+  .tp-justify-start   { justify-content: flex-start }
+  .tp-flex { display: flex }
+  .tp-order-last { order: 99999 }
+  .tp-flex-column  { flex-direction: column }
+
+  .tp-flex-auto {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0
+  }
+
+  .tp-justify-center   { justify-content: center }
+  .tp-justify-start   { justify-content: flex-start }
+}
+
+@include media($phone-devices...) {
+  .p-items-start    { align-items: flex-start }
+  .p-justify-start   { justify-content: flex-start }
+  .p-flex { display: flex }
+  .p-order-last { order: 99999 }
+  .p-flex-column  { flex-direction: column }
+
+  .p-flex-auto {
+    flex: 1 1 auto;
+    min-width: 0;
+    min-height: 0
+  }
+
+  .p-justify-center   { justify-content: center }
+  .p-justify-start   { justify-content: flex-start }
+}

@@ -1,0 +1,69 @@
+.inline       { display: inline }
+.block        { display: block }
+.inline-block { display: inline-block }
+.table        { display: table }
+.table-cell   { display: table-cell }
+
+.overflow-hidden { overflow: hidden }
+.overflow-visible { overflow: visible }
+.overflow-x-hidden { overflow-x: hidden }
+.overflow-y-hidden { overflow-x: hidden }
+.overflow-scroll { overflow: scroll }
+.overflow-y-scroll { overflow-y: scroll }
+.overflow-auto   { overflow: auto }
+.smooth-scroll   { -webkit-overflow-scrolling: touch } // sass-lint:disable-line no-misspelled-properties
+.pointer-events-none { pointer-events: none }
+.pointer-events-all { pointer-events: all }
+.user-select-none { user-select: none; -webkit-user-select: none; }
+.user-select-all { user-select: all }
+.cursor-pointer { cursor: pointer }
+
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table
+}
+.clearfix:after { clear: both }
+
+.left  { float: left }
+.right { float: right }
+
+.fit { max-width: 100% }
+.fit-height { height: 100% }
+.full-width { width: 100% }
+
+@include media($tabletlandscape-devices...) {
+  .tl-overflow-visible { overflow: visible }
+  .tl-block  { display: block }
+  .tl-inline-block { display: inline-block }
+  .tl-inline { display: inline }
+  .tl-flex { display: flex }
+  .tl-overflow-hidden { overflow: hidden }
+  .tl-overflow-auto { overflow: auto }
+  .tl-pointer-events-none { pointer-events: none }
+  .tl-pointer-events-all { pointer-events: all }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-overflow-visible { overflow: visible }
+  .tp-block  { display: block }
+  .tp-inline-block { display: inline-block }
+  .tp-inline { display: inline }
+  .tp-flex { display: flex }
+  .tp-overflow-hidden { overflow: hidden }
+  .tp-overflow-auto { overflow: auto }
+  .tp-pointer-events-none { pointer-events: none }
+  .tp-pointer-events-all { pointer-events: all }
+}
+
+@include media($phone-devices...) {
+  .p-overflow-visible { overflow: visible }
+  .p-block  { display: block }
+  .p-inline-block { display: inline-block }
+  .p-inline { display: inline }
+  .p-flex { display: flex }
+  .p-overflow-hidden { overflow: hidden }
+  .p-overflow-auto { overflow: auto }
+  .p-pointer-events-none { pointer-events: none }
+  .p-pointer-events-all { pointer-events: all }
+}

@@ -1,0 +1,327 @@
+@import '../variables';
+
+h1, .h1 {
+  color: $white-washout;
+  font-family: $karbon-semi-bold;
+  font-size: $h1;
+  line-height: $lh1;
+}
+
+h2, .h2 {
+  color: $white-washout;
+  font-family: $karbon-semi-bold;
+  font-size: $h2;
+  line-height: $lh2;
+}
+
+h3, .h3 {
+  color: $white-washout;
+  font-family: $karbon-semi-bold;
+  font-size: $h3;
+  line-height: $lh3;
+}
+
+h4, .h4 {
+  color: $white-washout;
+  font-family: $karbon-semi-bold;
+  font-size: $h4;
+  line-height: $lh4;
+}
+
+h5, .h5 {
+  color: $white-washout;
+  font-family: $karbon-regular;
+  font-weight: normal;
+  font-size: $h5;
+  line-height: $lh5;
+}
+
+h6, .h6 {
+  color: $white-washout;
+  font-family: $karbon-regular;
+  font-weight: normal;
+  font-size: $h6;
+  line-height: $lh6;
+}
+
+.h7 {
+  color: $white-washout;
+  font-family: $karbon-semi-bold;
+  font-weight: normal;
+  font-size: $h7;
+  line-height: $lh7;
+}
+
+p, .p {
+  color: $white-washout;
+  font-family: $helvetica;
+  font-size: $h7;
+  color: $light-tarmac;
+  line-height: $lh4;
+}
+
+.help-text {
+  font-family: $helvetica;
+  font-size: 1.4rem;
+  color: $storm;
+  line-height: $lh7;
+}
+
+a {
+  color: $turquoise;
+}
+
+.caption {
+  font-family: $karbon-semi-bold;
+  font-size: $h7;
+  color: $storm;
+  line-height: $lh7;
+  text-transform: uppercase
+}
+
+.font-family-inherit { font-family: inherit }
+.font-size-inherit { font-size: inherit }
+.text-decoration-none { text-decoration: none }
+.upper-case { text-transform: uppercase }
+.capitalize { text-transform: capitalize; }
+
+.bold-karbon { font-family: $karbon-semi-bold }
+.bold { font-weight: 700 }
+.medium { font-weight: 500 }
+
+.regular { font-family: $karbon-regular }
+
+.italic  { font-style: italic }
+
+.left-align   { text-align: left }
+.center       { text-align: center }
+.right-align  { text-align: right }
+.justify      { text-align: justify }
+
+.nowrap { white-space: nowrap }
+.break-word { word-wrap: break-word }
+.white-space-normal { white-space: normal }
+
+.list-style-none { list-style: none }
+.underline { text-decoration: underline }
+.no-decoration { text-decoration: none }
+
+.line-height-1 { line-height: 1 }
+.line-height-2 { line-height: 1.125 }
+.line-height-3 { line-height: 1.25 }
+.line-height-4 { line-height: 1.5 }
+
+.truncate {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap
+}
+
+.list-reset {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0
+}
+
+.horizontal-rule {
+  display: block;
+  background-color: $washout;
+  margin: 1.6rem 0;
+  height: .1rem;
+  width: 100%;
+}
+
+@include media($tabletlandscape-devices...) {
+  .tl-left-align   { text-align: left }
+  .tl-center       { text-align: center }
+  .tl-right-align  { text-align: right }
+  .tl-justify      { text-align: justify }
+  .tl-regular {
+    font-family: $karbon-regular;
+    font-weight: normal
+  }
+
+  .tl-h1 {
+    font-family: $karbon-semi-bold;
+    font-size: $h1;
+    line-height: $lh1;
+  }
+
+  .tl-h2 {
+    font-family: $karbon-semi-bold;
+    font-size: $h2;
+    line-height: $lh2;
+  }
+
+  .tl-h3 {
+    font-family: $karbon-semi-bold;
+    font-size: $h3;
+    line-height: $lh3;
+  }
+
+  .tl-h4 {
+    font-family: $karbon-semi-bold;
+    font-size: $h4;
+    line-height: $lh4;
+  }
+
+  .tl-h5 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h5;
+    line-height: $lh5;
+  }
+
+  .tl-h6 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h6;
+    line-height: $lh6;
+  }
+
+  .tl-h7 {
+    font-family: $karbon-semi-bold;
+    font-weight: normal;
+    font-size: $h7;
+    line-height: $lh7;
+  }
+
+  .tl-p {
+    font-family: $helvetica;
+    font-size: $h7;
+    color: $light-tarmac;
+    line-height: $lh4;
+  }
+}
+
+@include media($tabletportrait-devices...) {
+  .tp-left-align   { text-align: left }
+  .tp-center       { text-align: center }
+  .tp-right-align  { text-align: right }
+  .tp-justify      { text-align: justify }
+  .tp-regular {
+    font-family: $karbon-regular;
+    font-weight: normal
+  }
+
+  .tp-h1 {
+    font-family: $karbon-semi-bold;
+    font-size: $h1;
+    line-height: $lh1;
+  }
+
+  .tp-h2 {
+    font-family: $karbon-semi-bold;
+    font-size: $h2;
+    line-height: $lh2;
+  }
+
+  .tp-h3 {
+    font-family: $karbon-semi-bold;
+    font-size: $h3;
+    line-height: $lh3;
+  }
+
+  .tp-h4 {
+    font-family: $karbon-semi-bold;
+    font-size: $h4;
+    line-height: $lh4;
+  }
+
+  .tp-h5 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h5;
+    line-height: $lh5;
+  }
+
+  .tp-h6 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h6;
+    line-height: $lh6;
+  }
+
+  .tp-h7 {
+    font-family: $karbon-semi-bold;
+    font-weight: normal;
+    font-size: $h7;
+    line-height: $lh7;
+  }
+
+  .tp-p {
+    font-family: $helvetica;
+    font-size: $h7;
+    color: $light-tarmac;
+    line-height: $lh4;
+  }
+}
+
+@include media($phone-devices...) {
+  .p-left-align   { text-align: left }
+  .p-center       { text-align: center }
+  .p-right-align  { text-align: right }
+  .p-justify      { text-align: justify }
+  .p-regular {
+    font-family: $karbon-regular;
+    font-weight: normal
+  }
+
+  .p-h1 {
+    font-family: $karbon-semi-bold;
+    font-size: $h1;
+    line-height: $lh1;
+  }
+
+  .p-h2 {
+    font-family: $karbon-semi-bold;
+    font-size: $h2;
+    line-height: $lh2;
+  }
+
+  .p-h3 {
+    font-family: $karbon-semi-bold;
+    font-size: $h3;
+    line-height: $lh3;
+  }
+
+  .p-h4 {
+    font-family: $karbon-semi-bold;
+    font-size: $h4;
+    line-height: $lh4;
+  }
+
+  .p-h5 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h5;
+    line-height: $lh5;
+  }
+
+  .p-h6 {
+    font-family: $karbon-regular;
+    font-weight: normal;
+    font-size: $h6;
+    line-height: $lh6;
+  }
+
+  .p-h7 {
+    font-family: $karbon-semi-bold;
+    font-weight: normal;
+    font-size: $h7;
+    line-height: $lh7;
+  }
+
+  .p-p {
+    font-family: $helvetica;
+    font-size: $h7;
+    color: $light-tarmac;
+    line-height: $lh4;
+  }
+
+  .p-bold {
+    font-family: $karbon-semi-bold;
+  }
+}
