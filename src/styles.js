@@ -10,7 +10,7 @@ const GridContainer = styled.div`
 
 
 GridContainer.defaultProps = {
-  px: ['8%', '6%', '6%', '4%']
+  px: ['4%', '4%', '4%', '4%']
 }
 
 export default GridContainer;

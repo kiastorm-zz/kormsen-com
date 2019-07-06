@@ -73,10 +73,10 @@ export const IndexPageTemplate = ({
 }) => (
   <>
     <IndexContainer bg="green">
-      <GridContainer className="flex pt8">
+      <GridContainer className="flex pt8 p-pt4">
         <LeftContainer width={[1, 3/4, 1/2, 5/12]}>
           <div className="mb12">
-            <h1 className="mb5">kia storm</h1>
+            <h1 className="mb3">kia storm</h1>
             <h2>a web interface & experience designer / developer</h2>
           </div>
 

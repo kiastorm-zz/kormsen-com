@@ -1,8 +1,17 @@
 import React from 'react'
-import { NavbarContainer } from './Navbar-styles';
 import styled from 'styled-components';
-import {layout, space} from 'styled-system';
+import {space, color, layout} from 'styled-system';
 import GridContainer from '../../styles';
+import BurgerMenu from '../../img/icons/menu-icon.svg'
+
+
+const NavbarContainer = styled.div`
+  display: flex;
+  align-items: center;
+  ${space}
+  ${color}
+  ${layout}
+`;
 
 const RightNav = styled.div`
   display: flex;
@@ -15,19 +24,21 @@ const RightNav = styled.div`
 const Navbar = (props) => {
   console.log(props);
   return (
-    <NavbarContainer alignItems height={72} width={[1]}>
+    <NavbarContainer height={72} width={[1]}>
       <GridContainer className="grid-container w-100">
-        <div className="flex justify-between w-100 pb1">
+        <div className="flex items-center justify-between w-100 pb1">
           <div>
             <h4 className="bold">kormsen</h4>
           </div>
 
-          <RightNav width={4/5}>
+          <RightNav className="p-display-none" width={4/5}>
             <h4 className="ml5">photography</h4>
             <h4 className="ml5">music</h4>
             <h4 className="ml5">writing</h4>
-            <h4 className="ml5">web dev / design</h4>
+            <h4 className="ml5">dev / design</h4>
           </RightNav>
+
+          <BurgerMenu className="p-flex tp-display-none" fill="white" width="32px" />
         </div>
       </GridContainer>
     </NavbarContainer>

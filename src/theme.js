@@ -10,6 +10,7 @@ const theme = {
   },
   space: [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80],
   radii: [0, 4, 8, 12, 16],
+  breakpoints: ['600px', '900px', '1200px', '1800px' ]
 }
 
 export default theme;
