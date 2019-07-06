@@ -4,6 +4,39 @@
 $gutter: $space-6;
 $small-gutter: $space-3;
 
+.grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 134rem;
+  padding-left: 4%;
+  padding-right: 4%;
+
+  &.gutter-one {
+    .col {
+      padding-left: 1.0rem;
+      padding-right: 1.0rem
+    }
+
+    .row {
+      margin-left: -1.0rem;
+      margin-right: -1.0rem
+    }
+  }
+
+  &.gutter-two {
+    .col {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem
+    }
+
+    .row {
+      margin-left: -1.5rem;
+      margin-right: -1.5rem
+    }
+  }
+}
+
+
 .main-content {
   padding-top: 3.6rem;
   padding-bottom: 3.6rem;

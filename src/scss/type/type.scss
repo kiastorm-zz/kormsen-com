@@ -2,35 +2,35 @@
 
 h1, .h1 {
   color: $white-washout;
-  font-family: $karbon-semi-bold;
+  font-family: $helvetica;
   font-size: $h1;
   line-height: $lh1;
 }
 
 h2, .h2 {
   color: $white-washout;
-  font-family: $karbon-semi-bold;
+  font-family: $helvetica;
   font-size: $h2;
   line-height: $lh2;
 }
 
 h3, .h3 {
   color: $white-washout;
-  font-family: $karbon-semi-bold;
+  font-family: $helvetica;
   font-size: $h3;
   line-height: $lh3;
 }
 
 h4, .h4 {
   color: $white-washout;
-  font-family: $karbon-semi-bold;
+  font-family: $helvetica;
   font-size: $h4;
   line-height: $lh4;
 }
 
 h5, .h5 {
   color: $white-washout;
-  font-family: $karbon-regular;
+  font-family: $helvetica;
   font-weight: normal;
   font-size: $h5;
   line-height: $lh5;
@@ -38,7 +38,7 @@ h5, .h5 {
 
 h6, .h6 {
   color: $white-washout;
-  font-family: $karbon-regular;
+  font-family: $helvetica;
   font-weight: normal;
   font-size: $h6;
   line-height: $lh6;
@@ -46,8 +46,8 @@ h6, .h6 {
 
 .h7 {
   color: $white-washout;
-  font-family: $karbon-semi-bold;
-  font-weight: normal;
+  font-family: $helvetica;
+  font-weight: 700;
   font-size: $h7;
   line-height: $lh7;
 }
@@ -72,7 +72,7 @@ a {
 }
 
 .caption {
-  font-family: $karbon-semi-bold;
+  font-family: $helvetica;
   font-size: $h7;
   color: $storm;
   line-height: $lh7;
@@ -85,7 +85,7 @@ a {
 .upper-case { text-transform: uppercase }
 .capitalize { text-transform: capitalize; }
 
-.bold-karbon { font-family: $karbon-semi-bold }
+.bold-karbon { font-family: $helvetica }
 .bold { font-weight: 700 }
 .medium { font-weight: 500 }
 
@@ -144,25 +144,25 @@ a {
   }
 
   .tl-h1 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h1;
     line-height: $lh1;
   }
 
   .tl-h2 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h2;
     line-height: $lh2;
   }
 
   .tl-h3 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h3;
     line-height: $lh3;
   }
 
   .tl-h4 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h4;
     line-height: $lh4;
   }
@@ -182,7 +182,7 @@ a {
   }
 
   .tl-h7 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-weight: normal;
     font-size: $h7;
     line-height: $lh7;
@@ -207,25 +207,25 @@ a {
   }
 
   .tp-h1 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h1;
     line-height: $lh1;
   }
 
   .tp-h2 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h2;
     line-height: $lh2;
   }
 
   .tp-h3 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h3;
     line-height: $lh3;
   }
 
   .tp-h4 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h4;
     line-height: $lh4;
   }
@@ -245,7 +245,7 @@ a {
   }
 
   .tp-h7 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-weight: normal;
     font-size: $h7;
     line-height: $lh7;
@@ -270,25 +270,25 @@ a {
   }
 
   .p-h1 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h1;
     line-height: $lh1;
   }
 
   .p-h2 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h2;
     line-height: $lh2;
   }
 
   .p-h3 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h3;
     line-height: $lh3;
   }
 
   .p-h4 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-size: $h4;
     line-height: $lh4;
   }
@@ -308,7 +308,7 @@ a {
   }
 
   .p-h7 {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
     font-weight: normal;
     font-size: $h7;
     line-height: $lh7;
@@ -322,6 +322,6 @@ a {
   }
 
   .p-bold {
-    font-family: $karbon-semi-bold;
+    font-family: $helvetica;
   }
 }
