@@ -21,10 +21,13 @@ const RightNav = styled.div`
   ${space}
 `;
 
+const NavItem = styled.h4`
+  ${space}
+`;
+
 const Navbar = (props) => {
-  console.log(props);
   return (
-    <NavbarContainer height={72} width={[1]}>
+    <NavbarContainer height={72} py={3} width={[1]}>
       <GridContainer className="grid-container w-100">
         <div className="flex items-center justify-between w-100 pb1">
           <div>
@@ -32,13 +35,13 @@ const Navbar = (props) => {
           </div>
 
           <RightNav className="p-display-none" width={4/5}>
-            <h4 className="ml5">photography</h4>
-            <h4 className="ml5">music</h4>
-            <h4 className="ml5">writing</h4>
-            <h4 className="ml5">dev / design</h4>
+            <NavItem ml={[3,'6%', '8%']}>photography</NavItem>
+            <NavItem ml={[3,'6%', '8%']}>music</NavItem>
+            <NavItem ml={[3,'6%', '8%']}>writing</NavItem>
+            <NavItem ml={[3,'6%', '8%']}>dev / design</NavItem>
           </RightNav>
 
-          <BurgerMenu className="p-flex tp-display-none" fill="white" width="32px" />
+          <BurgerMenu className="p-flex tp-display-none tl-display-none display-none" fill="white" width="32px" />
         </div>
       </GridContainer>
     </NavbarContainer>

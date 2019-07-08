@@ -12,6 +12,10 @@ import theme from '../theme';
 
 const AppContainer = styled.div`
   ${color}
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
   position: relative;
   bottom: 0;
   left: 0;
@@ -61,7 +65,7 @@ const TemplateWrapper = ({ children }) => {
         </Helmet>
         <Navbar />
 
-        <div>{children}</div>
+        <div className="flex flex-auto overflow-hidden">{children}</div>
         {/* <Footer /> */}
       </AppContainer>
     </ThemeProvider>

@@ -6,6 +6,8 @@ const GridContainer = styled.div`
   margin-right: auto;
   margin-left: auto;
   max-width: 134rem;
+  display: flex;
+  flex: 1;
 `;
 
 
