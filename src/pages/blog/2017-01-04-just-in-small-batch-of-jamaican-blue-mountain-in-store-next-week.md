@@ -13,6 +13,7 @@ tags:
   - flavor
   - tasting
 ---
+![chemex](https://ucarecdn.com/528ee3e7-fd4c-4173-97cd-e4570509d32c/)
 
 We expect the shipment of a limited quantity of green beans next Monday. We’ll be offering the roasted beans from Tuesday, but quantities are limited, so be quick.
 
