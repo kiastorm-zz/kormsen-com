@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import PreviewCompatibleImage from '../components/PreviewCompatibleImage'
+// import Image from '../components/Image'
 
 const FeatureGrid = ({ gridItems }) => (
   <div>

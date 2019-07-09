@@ -31,6 +31,23 @@ module.exports = {
         name: 'images',
       },
     },
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'MarkdownRemark',
+        imagePath: 'featuredimage',
+        name: 'featuredimage',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-remote-images`,
+      options: {
+        nodeType: 'MarkdownRemark',
+        imagePath: 'frontmatter/featuredimage',
+        name: 'featuredimage',
+      },
+    },
+    'gatsby-background-image',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
     {

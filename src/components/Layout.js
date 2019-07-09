@@ -1,11 +1,11 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Footer from '../components/Footer'
+// import Footer from '../components/Footer'
 import Navbar from '../components/Navbar/Navbar'
 import styled from 'styled-components';
 import {color} from 'styled-system';
 import '../scss/index.scss'
-import bgImg from '../img/mountains-bg.svg';
+// import bgImg from '../img/mountains-bg.svg';
 import useSiteMetadata from './SiteMetadata'
 import { ThemeProvider, withTheme } from 'styled-components';
 import theme from '../theme';

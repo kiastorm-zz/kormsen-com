@@ -1,16 +1,15 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Link, graphql } from 'gatsby'
+import { graphql } from 'gatsby'
 import styled from 'styled-components';
-import {color, layout, background, border, space, radii} from 'styled-system';
-import bgImg from '../img/mountains-bg.svg';
-import test from '../img/home/190123000000590017.jpg';
+import {layout, background, space} from 'styled-system';
+// import bgImg from '../img/mountains-bg.svg';
+// import test from '../img/home/190123000000590017.jpg';
 import Layout from '../components/Layout'
-import Features from '../components/Features'
-import BlogRoll from '../components/BlogRoll'
-import PlayIcon from '../img/icons/play-icon.inline.svg';
+// import Features from '../components/Features'
+import ContentFeed from '../components/ContentFeed'
+// import PlayIcon from '../img/icons/play-icon.inline.svg';
 import GridContainer from '../styles';
-import { hidden } from 'ansi-colors';
 
 const IndexContainer = styled.div`
   ${background}
@@ -45,71 +44,73 @@ const RightContainer = styled.div`
   ${space}
 `;
 
-const ImageGalleryCTA = styled.img`
-  border-radius: .8rem;
-  width: 100%;
-`;
-const FeedContainer = styled.div`
-  display: flex;
-  border-radius: 1.2rem;
-  overflow: scroll;
-  ${color}
-  ${space}
-  ${layout}
-  ${radii}
-  z-index: 1;
-`;
+// const ImageGalleryCTA = styled.img`
+//   border-radius: .8rem;
+//   width: 100%;
+// `;
 
-const FeedContent = styled.div`
-  display: flex;
-  overflow: scroll;
-  flex: 1;
-`;
+// const FeedContainer = styled.div`
+//   display: flex;
+//   border-radius: 1.2rem;
+//   overflow: scroll;
+//   ${color}
+//   ${space}
+//   ${layout}
+//   ${radii}
+//   z-index: 1;
+// `;
+
+// const FeedContent = styled.div`
+//   display: flex;
+//   overflow: scroll;
+//   flex: 1;
+// `;
 
 
-const FeedItemLeftContainer = styled.div`
-  ${space}
-  ${color}
-  ${layout}
-  ${radii}
-  background-size: cover;
-  border-radius: .4rem;
-  height: 60px;
-  min-width: 60px;
-  position: relative;
+// const FeedItemLeftContainer = styled.div`
+//   ${space}
+//   ${color}
+//   ${layout}
+//   ${radii}
+//   background-size: cover;
+//   border-radius: .4rem;
+//   height: 60px;
+//   min-width: 60px;
+//   position: relative;
 
-  &:after {
-    content: "";
-    background-color: #985668;
-    border-radius: .8rem;
-    opacity: .3;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-  }
-`;
+//   &:after {
+//     content: "";
+//     background-color: #985668;
+//     border-radius: .8rem;
+//     opacity: .3;
+//     position: absolute;
+//     width: 100%;
+//     height: 100%;
+//   }
+// `;
 
-const FeedScrollArea = styled.div`
-  display: flex;
-  flex-direction: column;
-`;
+// const FeedScrollArea = styled.div`
+//   display: flex;
+//   flex-direction: column;
+// `;
 
-const FeedItem = styled.div`
-  display: flex;
-  align-items: center;
-  border-radius: .8rem;
-  margin-bottom: 1.2rem;
+// const FeedItem = styled.div`
+//   display: flex;
+//   align-items: center;
+//   border-radius: .8rem;
+//   margin-bottom: 1.2rem;
 
-  ${border}
+//   ${border}
 
-  &:last-child {
-    margin-bottom: 0;
-  }
+//   &:last-child {
+//     margin-bottom: 0;
+//   }
 
-  ${color}
-  ${space}
-  ${layout}
-`;
+//   ${color}
+//   ${space}
+//   ${layout}
+// `;
+
 
 
 
@@ -135,12 +136,12 @@ export const IndexPageTemplate = ({
         </LeftContainer>
 
         <RightContainer ml={'auto'} width={[0, 0, 0, 5/12]} pt={5}>
-          <BlogRoll />
+          <ContentFeed />
         </RightContainer>
       </GridContainer>
     </IndexContainer>
     <BgImgContainer>
-      <img className="absolute bottom-0" src={bgImg} />
+      {/* <img className="absolute bottom-0" src={bgImg} /> */}
     </BgImgContainer>
   </>
 )
