@@ -3,7 +3,6 @@ import PropTypes from 'prop-types'
 import styled from 'styled-components';
 import { Link, graphql, StaticQuery } from 'gatsby'
 import {color, layout, border, space} from 'styled-system';
-// import test from '../img/home/190123000000590017.jpg';
 import PlaySvg from '../img/icons/play-icon.inline.svg';
 import Image from './Image'
 
@@ -15,6 +14,14 @@ const FeedContainer = styled.div`
   ${space}
   ${layout}
   z-index: 1;
+`;
+
+const FeaturedImage = styled(Image)`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
 `;
 
 const FeedContent = styled.div`
@@ -63,20 +70,20 @@ const ContentFeed = ({data}) => {
 
     if (!postData.frontmatter) return null;
 
-    console.log(postData);
-
     switch (postData.frontmatter.templateKey) {
       case 'blog-post':
        post = (
         <FeedItem bg="pink" py={3} px={3} key={postData.id}>
-          {postData.frontmatter.featuredimage &&
+          {postData.featuredimage &&
             <>
               <Link
                 to={postData.fields.slug}
               >
-                <Image imageInfo={{image: postData.frontmatter.featuredimage, alt: 'test', width: '120px', height: '80px'}}>
-                  <PlayIcon />
-                </Image>
+                <FeaturedImage bg overlayColor="#985668" imageInfo={postData.featuredimage}>
+                  <div>
+                    <PlayIcon />
+                  </div>
+                </FeaturedImage>
               </Link>
             </>
           }
@@ -141,10 +148,16 @@ export default () => (
               fields {
                 slug
               }
+              featuredimage {
+                childImageSharp {
+                  fluid(maxWidth: 200, quality: 100) {
+                    ...GatsbyImageSharpFluid
+                  }
+                }
+              }
               frontmatter {
                 templateKey
                 title
-                featuredimage
               }
             }
           }

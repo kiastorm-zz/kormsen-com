@@ -35,7 +35,7 @@ module.exports = {
       resolve: `gatsby-plugin-remote-images`,
       options: {
         nodeType: 'MarkdownRemark',
-        imagePath: 'featuredimage',
+        imagePath: 'frontmatter.featuredimage',
         name: 'featuredimage',
       },
     },
@@ -43,7 +43,7 @@ module.exports = {
       resolve: `gatsby-plugin-remote-images`,
       options: {
         nodeType: 'MarkdownRemark',
-        imagePath: 'frontmatter/featuredimage',
+        imagePath: 'frontmatter.image',
         name: 'featuredimage',
       },
     },
